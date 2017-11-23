@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/00-treasure-hunt.unity
+    guid: 4697287a379d64b9dae1da756752864a
+  - enabled: 1
+    path: Assets/Scenes/01-island-loader.unity
+    guid: 39089e240f97a4486ba13a2c39a8902a
+  - enabled: 1
+    path: Assets/Scenes/02-island-nickversion.unity
+    guid: 480e835319f7347449c32f4129df810b

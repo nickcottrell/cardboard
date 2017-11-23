@@ -1,0 +1,6 @@
+music:
+https://freesound.org/people/4barrelcarb/sounds/365361/
+
+applause:
+https://freesound.org/people/jessepash/sounds/139972/
+
