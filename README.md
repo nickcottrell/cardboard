@@ -1,2 +1,2 @@
-# udacity-vr-t1
-This is where I've stored my projects for the Udacity Nanodegree Term 1
+# Cardboard Apps
+This is a series of Cardboard apps I created for the Udacity VR course
