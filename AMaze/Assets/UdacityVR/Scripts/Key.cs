@@ -9,6 +9,8 @@ public class Key : MonoBehaviour
 	public GameObject doorPrefab;
 	public GameObject keyPoofPrefab;
 	public GameObject keyPrefab;
+	public GameObject keyAudio;
+
 	 
 	void Update()
 	{
@@ -28,6 +30,8 @@ public class Key : MonoBehaviour
 		// Make sure the poof animates vertically
 		Vector3 keyposition = transform.position; 
 		Object.Instantiate(keyPoofPrefab, keyposition, Quaternion.Euler(-90, 0, 0));
+		Object.Instantiate(keyAudio, keyposition, Quaternion.Euler(-90, 0, 0));
+
 		// Call the Unlock() method on the Door
 
 		// Set the Key Collected Variable to true

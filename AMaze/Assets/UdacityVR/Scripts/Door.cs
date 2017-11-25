@@ -11,6 +11,12 @@ public class Door : MonoBehaviour
 
 	public Animator doorOpening;
 
+	public AudioClip[] soundFiles;
+	public AudioSource soundSource;
+
+
+
+
 	void Start() {
 		locked = true;
 	}
@@ -25,8 +31,12 @@ public class Door : MonoBehaviour
 		if (!locked) {
 			Debug.Log("Opening the door...");
 			doorOpening.enabled = true;
+			soundSource.clip = soundFiles [1];
+			soundSource.Play ();
 				} else {
 					Debug.Log("Door is locked!");
+					soundSource.clip = soundFiles [0];
+					soundSource.Play ();
 						
 				}
         // If the door is clicked and unlocked
