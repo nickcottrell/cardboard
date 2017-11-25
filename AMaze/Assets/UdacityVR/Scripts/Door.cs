@@ -5,9 +5,15 @@ using UnityEngine;
 public class Door : MonoBehaviour 
 {
     // Create a boolean value called "locked" that can be checked in OnDoorClicked() 
-	public bool locked = true; //WHAT IS THE POINT OF THIS?
+	[SerializeField]
+	public static bool locked;
 	// Create a boolean value called "opening" that can be checked in Update() 
-	public bool keyCollected = false;
+
+	public Animator doorOpening;
+
+	void Start() {
+		locked = true;
+	}
 
 
     void Update() {
@@ -16,8 +22,9 @@ public class Door : MonoBehaviour
 	}
 
     public void OnDoorClicked() {
-		if (keyCollected) {
+		if (!locked) {
 			Debug.Log("Opening the door...");
+			doorOpening.enabled = true;
 				} else {
 					Debug.Log("Door is locked!");
 						
@@ -31,7 +38,6 @@ public class Door : MonoBehaviour
     public void Unlock()
     {
 
-		keyCollected = true;
 		locked = false;
         // You'll need to set "locked" to false here
 
