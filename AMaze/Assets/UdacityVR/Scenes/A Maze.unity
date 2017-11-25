@@ -436,8 +436,24 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4690574637175170, guid: 111654ac6051e4d0aa5c3b534c180677, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114841200866888688, guid: 111654ac6051e4d0aa5c3b534c180677,
+        type: 2}
+      propertyPath: doorPrefab
+      value: 
+      objectReference: {fileID: 2087536759}
+    - target: {fileID: 114841200866888688, guid: 111654ac6051e4d0aa5c3b534c180677,
+        type: 2}
+      propertyPath: keyPoofPrefab
+      value: 
+      objectReference: {fileID: 1000012050171414, guid: 251f98f5c04e5b346b37c68d537e30c6,
+        type: 2}
+    - target: {fileID: 114841200866888688, guid: 111654ac6051e4d0aa5c3b534c180677,
+        type: 2}
+      propertyPath: keyPrefab
+      value: 
+      objectReference: {fileID: 1225132596}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 111654ac6051e4d0aa5c3b534c180677, type: 2}
   m_IsPrefabParent: 0
@@ -832,7 +848,7 @@ Transform:
   - {fileID: 298113519}
   - {fileID: 1231525691}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &514793636
 Prefab:
@@ -1449,7 +1465,7 @@ Prefab:
     - target: {fileID: 224000013198373878, guid: f70ec84cc3ad04416a54397138e8f071,
         type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224000013198373878, guid: f70ec84cc3ad04416a54397138e8f071,
         type: 2}
@@ -1987,7 +2003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb5dd43baba2d4dc1bab789615567e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drawDebugRays: 0
+  drawDebugRays: 1
   raycasterEventMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -2150,8 +2166,60 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 137.40399, y: 10.912994, z: 828.901}
+--- !u!1 &1225132596 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1644043956173046, guid: 111654ac6051e4d0aa5c3b534c180677,
+    type: 2}
+  m_PrefabInternal: {fileID: 174203207}
+--- !u!114 &1225132598 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114841200866888688, guid: 111654ac6051e4d0aa5c3b534c180677,
+    type: 2}
+  m_PrefabInternal: {fileID: 174203207}
+  m_Script: {fileID: 11500000, guid: f2253f7e5b4c14d6ca1d63312bab36c1, type: 3}
+--- !u!114 &1225132602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1225132596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1225132598}
+          m_MethodName: OnKeyClicked
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2087536761}
+          m_MethodName: Unlock
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &1231525690
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,6 +2906,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1992369143}
   m_Mesh: {fileID: 4300004, guid: 8262c07f707ae224ea79a82d92a83bd9, type: 3}
+--- !u!1 &2087536759 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1212538085453316, guid: f9822e67385a4402d9bf680e50d19d58,
+    type: 2}
+  m_PrefabInternal: {fileID: 1804512817}
+--- !u!114 &2087536761 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114728757229156166, guid: f9822e67385a4402d9bf680e50d19d58,
+    type: 2}
+  m_PrefabInternal: {fileID: 1804512817}
+  m_Script: {fileID: 11500000, guid: 39f8a5a2b11c2426cb2a2bea3e825751, type: 3}
 --- !u!1001 &2113966662
 Prefab:
   m_ObjectHideFlags: 0
