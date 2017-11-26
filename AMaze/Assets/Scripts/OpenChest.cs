@@ -6,6 +6,7 @@ public class OpenChest : MonoBehaviour {
 
 
 	public Animator chestOpening;
+	public AudioSource soundSource2;
 
 
 	// Use this for initialization
@@ -16,5 +17,6 @@ public class OpenChest : MonoBehaviour {
 	// Update is called once per frame
 	public void OnChestClick() {
 		chestOpening.enabled = true;
+		soundSource2.enabled = true;
 	}
 }
