@@ -3,6 +3,7 @@ This is a series of VR experiences I created for the Udacity VR course. I used U
 
 
 
+
 ## Carnival
 This assignment started with a game that contained a few bugs and errors preventing some of the basic gameplay. Once I got the experience working, I went further to make the experience more interesting. I added a timer and some more engaging elements like applause for a win and a sad trombone for a loss. I also used carnival elements from the Unity Asset Store, added a daytime/sunset skybox, and re-lit and re-baked the environment.
 
@@ -16,6 +17,7 @@ This assignment started with a game that contained a few bugs and errors prevent
 _Users play carnival games to score points. When 2000 points or more are earned, a unicorn falls from the sky along with confetti and applause._
 
 
+
 ## Sushi Bar
 For this, I developed a custom camera from scratch. I also created all of the low poly art. This was a bonus scene that was not part of the course but further developed after some initial insights and techniques I learned.
 
@@ -27,6 +29,7 @@ For this, I developed a custom camera from scratch. I also created all of the lo
 
 ![Sushi Bar](/SushiBar/sushi-bar.png)
 _Viewers experience the sights and sounds of a quaint sushi bar._
+
 
 
 ## Noir Apartment
@@ -43,6 +46,7 @@ The assignment for this was to create a basic apartment scene with some props th
 _Users catch a glimpse of a private investigators apartment on a dark and stormy night in the city._
 
 
+
 ## Tresure Hunt
 This experience utilizes scene management and navigation to create a treasure hunt experience. Users click the Waypoints to search around the island for a hidden treasure chest.
 
@@ -54,6 +58,7 @@ This experience utilizes scene management and navigation to create a treasure hu
 
 ![Treasure Hunt](/TreasureHunt/treasure-hunt.png)
 _Players search a deserted island for treasure lost at sea, long ago._
+
 
 
 ## Maze
