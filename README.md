@@ -1,11 +1,11 @@
 # Cardboard Apps
-This is a series of VR experiences I created for the Udacity VR course. I used Unity to build and manage scenes and deployed VR applications to Cardboard. The projects demonstrate a working knowledge of scene creation, basic 3D math, and C# scripting.
+This is a series of VR experiences I created for the Udacity VR course. I used Unity to build and manage scenes and deployed the VR applications to Cardboard. The projects demonstrate a working knowledge of scene creation, basic 3D math, and C# scripting.
 
 
 
 
 ## Carnival
-This assignment started with a game that contained a few bugs and errors preventing some of the basic gameplay. Once I got the experience working, I went further to make the experience more interesting. I added a timer and some more engaging elements like applause for a win and a sad trombone for a loss. I also used carnival elements from the Unity Asset Store, added a daytime/sunset skybox, and re-lit and re-baked the environment.
+This assignment provided a mostly working game that contained a few bugs and errors preventing some of the basic gameplay. Once I got the bugs fixed and the experience working, I went further to make the it more interesting. I added a timer and some more engaging elements like applause for a win and a sad trombone for a loss. I also change the art and used carnival-themed elements from the Unity Asset Store, added a daytime/sunset skybox, and re-lit and re-baked the environment.
 
 **Key concepts:**
 * game logic
@@ -48,12 +48,13 @@ _Users catch a glimpse of a private investigators apartment on a dark and stormy
 
 
 ## Tresure Hunt
-This experience utilizes scene management and navigation to create a treasure hunt experience. Users click the Waypoints to search around the island for a hidden treasure chest.
+This experience utilizes scene management and navigation to create a treasure hunt experience. Users use waypoints to move around and search the island for a hidden treasure chest. Some of the assets were provided with the course, but I also added some pirate themed asset store assets. From there, I strung the experience together with an intro and loading scene to provide a more cohesive story.
 
 **Key concepts:**
 * Navigation
 * Scene management
 * Async scene loading
+* Manipulating Shaders
 * Controlling objects with scripts
 
 ![Treasure Hunt](/TreasureHunt/treasure-hunt.png)
@@ -62,7 +63,7 @@ _Players search a deserted island for treasure lost at sea, long ago._
 
 
 ## Maze
-This assignment was to create a maze out experience using provided prefabs. I created the scripts, arranged the layout of the maze, pick-up objects, and optimized the scene to run on mobile. This project showcases much of what I learned throughout the course, which involves combining 3D visual elements, audio, and game logic to create a playable, immersive, and performant scene.
+This assignment was to create a maze experience using provided prefabs. I created the scripts, arranged the layout of the maze, pick-up objects, and optimized the scene to run on mobile. This project showcases much of what I learned throughout the course, which involves combining 3D visual elements, audio, and game logic to create a playable, immersive, and performant scene.
 
 **Key Concepts:**
 * More complex scripting
