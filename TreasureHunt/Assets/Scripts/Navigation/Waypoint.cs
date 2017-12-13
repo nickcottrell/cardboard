@@ -2,7 +2,7 @@
 using System.Collections;
 
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(MeshRenderer))]
+//[RequireComponent(typeof(MeshRenderer))]
 public class Waypoint : MonoBehaviour
 {
 	public bool			occupied							= false;
