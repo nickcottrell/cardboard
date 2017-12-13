@@ -82,7 +82,7 @@ Material:
     - _Half: 0
     - _Half_Direction: 0
     - _Half_Exposure: 0
-    - _Haze: 0.22
+    - _Haze: 0
     - _Height: -0.03
     - _Light: 0
     - _Light_Direction: 0
@@ -95,10 +95,10 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Reflection: 0.6
-    - _Refractive_Index: 0.5
+    - _Refractive_Index: 0.394
     - _Resolution: 65
     - _Result: 1
-    - _Roughness: 0.44
+    - _Roughness: 0.405
     - _SrcBlend: 1
     - _Tangent: 0
     - _Topography: 0
