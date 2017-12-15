@@ -51,7 +51,7 @@ public class Scene4 : MonoBehaviour
 
 	void InitializeFlockRenderering() 
 	{
-		GameObject.Find("Main Camera Left").AddComponent<FlockRenderer>();
-		GameObject.Find("Main Camera Right").AddComponent<FlockRenderer>();
+//		GameObject.Find("Main Camera Left").AddComponent<FlockRenderer>();
+//		GameObject.Find("Main Camera Right").AddComponent<FlockRenderer>();
 	}
 }
