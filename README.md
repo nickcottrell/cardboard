@@ -72,5 +72,7 @@ This assignment was to create a maze experience using provided prefabs. I create
 * Game design
 * Ojects &amp; Scoring
 
-![Treasure Hunt](/AMaze/maze.png)
+![A Maze](/AMaze/maze.png)
 _Players navigate through a maze and find a key to unlock a temple containing ancient treasure._ 
+
+Check out some more [VR projects](https://github.com/nickcottrell/udacity-vr-t2/) I made!
