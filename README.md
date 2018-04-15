@@ -1,8 +1,7 @@
-# Cardboard Apps
-This is a series of VR experiences I created for the Udacity VR course. I used Unity to build and manage scenes and deployed the VR applications to Cardboard. The projects demonstrate a working knowledge of scene creation, basic 3D math, and C# scripting.
+# Udacity VR Developer Nanodegree
+This is a series of VR experiences I created for the Udacity VR Developer Nanodegree. The content on this page covers everything from Term 1. Click here for [Term 2](https://github.com/nickcottrell/udacity-vr-t2). Click here for [Term 3](https://github.com/nickcottrell/udacity-vr-t3).
 
-
-
+For Each of these projects, I used Unity to build and manage scenes and deployed the VR applications to Cardboard. The projects demonstrate a working knowledge of scene creation, basic 3D math, and C# scripting.
 
 ## Carnival
 This assignment provided a mostly working game that contained a few bugs and errors preventing some of the basic gameplay. Once I got the bugs fixed and the experience working, I went further to make the it more interesting. I added a timer and some more engaging elements like applause for a win and a sad trombone for a loss. I also change the art and used carnival-themed elements from the Unity Asset Store, added a daytime/sunset skybox, and re-lit and re-baked the environment.
