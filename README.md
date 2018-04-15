@@ -1,6 +1,9 @@
 # Udacity VR Developer Nanodegree
 This is a series of VR experiences I created for the Udacity VR Developer Nanodegree. The content on this page covers everything from Term 1. Click here for [Term 2](https://github.com/nickcottrell/udacity-vr-t2). Click here for [Term 3](https://github.com/nickcottrell/udacity-vr-t3).
 
+Click here for to see a video of my Capstone Project: https://youtu.be/HdBydmF54qY
+
+# Term 1
 For Each of these projects, I used Unity to build and manage scenes and deployed the VR applications to Cardboard. The projects demonstrate a working knowledge of scene creation, basic 3D math, and C# scripting.
 
 ## Carnival
